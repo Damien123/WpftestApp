@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpftestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpftestApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="261,106,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="57,47,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="417,224,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="57,157,0,0" VerticalAlignment="Top" Height="107" Width="94"/>
+
+    </Grid>
+</Window>
